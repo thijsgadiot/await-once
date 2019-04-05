@@ -1,0 +1,16 @@
+{
+  "name": "@thijsgadiot/await-once",
+  "version": "1.0.0",
+  "description": "Simple helper to test for events to be emitted",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=4000 test/*.test.js"
+  },
+  "keywords": [],
+  "author": "Thijs Gadiot (thijs@gadiot.net)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.0.2"
+  }
+}
